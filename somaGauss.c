@@ -1,5 +1,5 @@
 /*
-*Arquivo: aritmInt.c
+*Arquivo: somaGauss.c
 *Data criação: 27/out/22
 *Autor: Natan Ferreira
 *Meu primeiro programa em C
