@@ -1,8 +1,8 @@
 /*
 *Arquivo: aritmInt.c
-*Data criação: 27/out/22
+*Data criação: 04/nov/22
 *Autor: Natan Ferreira
-*Meu primeiro programa em C
+*Soma de números em C
 */
 #include <stdio.h>
 int main(void){

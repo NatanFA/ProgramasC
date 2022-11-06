@@ -1,8 +1,8 @@
 /*
-*Arquivo: imc.c
+*Arquivo: fibonacci.c
 *Data criação: 04/nov/22
 *Autor: Natan Ferreira
-*Meu primeiro programa em C
+*Fibonacci em C
 */
 
 #include <stdio.h>

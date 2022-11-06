@@ -1,8 +1,8 @@
 /*
-*Arquivo: aritmInt.c
-*Data criação: 27/out/22
+*Arquivo: somaDivisores.c
+*Data criação: 04/nov/22
 *Autor: Natan Ferreira
-*Meu primeiro programa em C
+*Divisores comuns em C
 */
 
 #include <stdio.h>

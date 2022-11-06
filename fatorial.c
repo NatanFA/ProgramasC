@@ -2,7 +2,7 @@
 *Arquivo: fatorial.c
 *Data criação: 04/nov/22
 *Autor: Natan Ferreira
-*Meu primeiro programa em C
+*Fatorial em C
 */
 
 #include <stdio.h>
