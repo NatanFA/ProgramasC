@@ -7,16 +7,20 @@
 #include <stdio.h>
 #define N 1024
 
-void getstr(char * str, int nchar);
+int getstr(char * str, int nchar);
+void upper(char * str);
+void invertestring(char * str, int nchar, int j);
 
 int main(void){ 
     char s[N];
     printf("Digite uma palavra: ");
-    getstr(s, N);
+    int j = getstr(s, N);
+    upper(s);
+    invertestring(s, N, j);
     return 0;
 }
 
-void getstr(char * str, int nchar) {
+int getstr(char * str, int nchar) {
     char c;  int i;
     int j = 0;
     for(i = 0; i < nchar; i++) {
@@ -34,7 +38,20 @@ void getstr(char * str, int nchar) {
         // limpar buffer teclado
         while ((c = getchar()) != '\n' && c != EOF);
     }
-    for(int i; i >=0 ; i--){
+    return j;
+}
+
+void upper(char * str) {
+    long long int l = 0;
+    while(str[l]) {
+        if(str[l] >= 'a' && str[l] <= 'z')
+            str[l] -= 'a' - 'A';
+        l++;
+    }
+}
+
+void invertestring(char * str, int nchar, int j){
+    for(int i = j; i >=0; i--){
         printf("%c", str[i]);
     }
 }
