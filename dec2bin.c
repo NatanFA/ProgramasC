@@ -6,17 +6,17 @@
 
 #include <stdio.h>
 
-void convertbin(int n);
+void convertbin(long long int n);
 
 int main(void){ ;
     printf("Digite um numero: ");
-    int n;
-    scanf("%d", &n);
+    long long int n;
+    scanf("%llu", &n);
     convertbin(n);
     return 0;
 }
 
-void convertbin(int n){
+void convertbin(long long int n){
     int vetor[64];
     int i, j;
     i = 0;
