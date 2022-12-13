@@ -1,5 +1,5 @@
 /*
-*Arquivo: dec2bin.c
+*Arquivo: bin2dec.c
 *Data criação: 11/dez/22
 *Autor: Natan Ferreira
 */

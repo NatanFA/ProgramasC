@@ -1,5 +1,5 @@
 /*
-*Arquivo: contaVogais.c
+*Arquivo: reverteString.c
 *Data criação: 11/dez/22
 *Autor: Natan Ferreira
 */
