@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    char s[10] = "exemplo";
-    printf("%s", s);
+    printf("%d", '0' - '0');
     return 0;
 }
