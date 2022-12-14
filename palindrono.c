@@ -14,7 +14,7 @@ void invertestring(char * str, int nchar, int j);
 
 int main(void){ 
     char s[N];
-    printf("Digite uma palavra: ");
+    printf("Digite uma frase: ");
     int j = getstr(s, N);
     upper(s);
     invertestring(s, N, j);

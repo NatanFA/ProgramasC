@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "PI.C": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "stdio.h": "c"
     }
 }
