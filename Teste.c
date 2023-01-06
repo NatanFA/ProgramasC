@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
-    printf("%d", '0' - '0');
+int main(void){
+    printf("%d", (8 % 5));
     return 0;
 }
