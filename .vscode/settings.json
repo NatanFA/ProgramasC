@@ -2,6 +2,7 @@
     "files.associations": {
         "PI.C": "cpp",
         "string.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "math.h": "c"
     }
 }

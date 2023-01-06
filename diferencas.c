@@ -2,6 +2,7 @@
 *Arquivo: diferencas.c
 *Data criação: 02/dez/22
 *Autor: Natan Ferreira
+*Matrícula: 12121EEL016
 */
 
 #include <stdio.h>

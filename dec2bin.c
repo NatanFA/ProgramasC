@@ -2,6 +2,7 @@
 *Arquivo: dec2bin.c
 *Data criação: 11/dez/22
 *Autor: Natan Ferreira
+*Matrícula: 12121EEL016
 */
 
 #include <stdio.h>

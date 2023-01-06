@@ -2,6 +2,7 @@
 *Arquivo: quaisDiv.c
 *Data criação: 01/dez/22
 *Autor: Natan Ferreira
+*Matrícula: 12121EEL016
 */
 
 void identifica_divisores(int * vetor, int tamanho, int ref);
