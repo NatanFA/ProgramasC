@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
-    printf("%d", (8 % 5));
+    char s[12];
+    char n[12];
+    scanf("%s %s", &s, &n);
+    printf("%s %s", s, n);
     return 0;
 }
