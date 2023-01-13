@@ -2,9 +2,8 @@
 #include <string.h>
 
 int main(void){
-    char s[12];
-    char n[12];
-    scanf("%s %s", &s, &n);
-    printf("%s %s", s, n);
+    float a = 2;
+    int b = 3;
+    printf("%f", a/b);
     return 0;
 }
