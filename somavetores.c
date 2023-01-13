@@ -38,6 +38,8 @@ int main(void){
             printf("%lld ", (vetor1[i] + vetor2[i]));
         }
     }
+    free(vetor1);
+    free(vetor2);
     return 0;
 }
 
