@@ -25,7 +25,6 @@ int main(void){
     srand(n);
     for(int i = 0; i < n; i++){
         vetor[i] = rand() % n;
-        printf("%d\n", vetor[i]);
     }
     mini = min(vetor, n);
     maxi = max(vetor, n);
@@ -38,7 +37,6 @@ int main(void){
 int min(int * vetor, int n){
     int min = vetor[0];
     for(int i = 0; i < n; i++){
-        printf("%d\n", vetor[i]);
         if(vetor[i] < min){
             min = vetor[i];
         }
