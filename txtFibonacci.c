@@ -26,9 +26,13 @@ int main(void){
     printf("Erro na abertura do arquivo!");
     return 1;
     }else{
+        int i;
         for (int i = 0; i < n; i++){
             fib(vetor, i);
             fprintf(fibo, "%llu\n", vetor[i]);
+            if(i == (n - 1)){
+                printf("%llu\n", vetor[i]);
+            }
         }
     }
     free(vetor);
