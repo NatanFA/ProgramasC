@@ -12,7 +12,7 @@ typedef
     long long unsigned int
 lluint;
 
-lluint fib(int n);
+void fib(lluint * vetor, int i);
 
 int main(void){
     int n;
@@ -27,7 +27,7 @@ int main(void){
     return 1;
     }else{
         for (int i = 0; i < n; i++){
-            vetor[i] = fib(i);
+            fib(vetor, i);
             fprintf(fibo, "%llu\n", vetor[i]);
         }
     }
@@ -36,12 +36,12 @@ int main(void){
     return 0;
 }
 
-lluint fib(int n){
+void fib(lluint * vetor, int n){
     if (n == 0){
-        return 0;
-    }else if (n == 1){
-        return 1;
+        vetor[n] = 0;
+    }else if(n == 1){
+        vetor[n] = 1;
     }else{
-        return (fib(n - 1) + fib(n - 2));
+        vetor[n] = vetor[n - 1] + vetor[n - 2]; 
     }
-}
+    }
